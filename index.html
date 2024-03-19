@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SACC</title>
+  <!-- <link rel="icon" type="image/x-icon" href="images/logo-Q.jpg"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="css/bulma-slider.min.css">
+  <link rel="stylesheet" href="css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="js/fontawesome.all.min.js"></script>
+  <script src="js/bulma-carousel.min.js"></script>
+  <script src="js/bulma-slider.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+<div class="hero-body">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+<div class="column has-text-centered">
+  <h1 class="title is-1 publication-title">Unsupervised Illumination Adaptation for Low-Light Vision</h1>
+  <div class="is-size-5 publication-authors">
+    <!-- Paper authors -->
+    <span class="author-block">
+      <a href="https://daooshee.github.io/website/" target="_blank">Wenjing Wang</a><sup></sup>,</span>
+      <span class="author-block">
+        <a href="https://red-fairy.github.io/" target="_blank">Rundong Luo</a>,</span>
+      <span class="author-block">
+        <a href="https://flyywh.github.io/" target="_blank">Wenhan Yang</a>,</span>
+      <span class="author-block">
+        <a href="http://www.wict.pku.edu.cn/struct/people/liujiaying.html" target="_blank">Jiaying Liu</a>
+      </span>
+  </div>
+
+  <div class="is-size-5 publication-authors">
+    <span class="author-block">Accepted by TPAMI</span>
+  </div>
+
+  <div class="column has-text-centered">
+    <div class="publication-links">
+      <!-- Arxiv PDF link -->
+      <span class="link-block">
+        <a href="" target="_blank"
+        class="external-link button is-normal is-rounded is-dark">
+        <span class="icon">
+          <i class="fas fa-file-pdf"></i>
+        </span>
+        <span>Paper</span>
+      </a>
+    </span>
+
+      <!-- Supplementary PDF link -->
+      <span class="link-block">
+        <a href="" target="_blank"
+        class="external-link button is-normal is-rounded is-dark">
+        <span class="icon">
+          <i class="fas fa-file-pdf"></i>
+        </span>
+        <span>Supplementary</span>
+      </a>
+    </span>
+
+      <!-- Github link -->
+      <span class="link-block">
+        <a href="" target="_blank"
+        class="external-link button is-normal is-rounded is-dark">
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>Code (soon)</span>
+      </a>
+    </span>
+
+      <!-- ArXiv abstract Link -->
+      <span class="link-block">
+        <a href="" target="_blank"
+        class="external-link button is-normal is-rounded is-dark">
+        <span class="icon">
+          <i class="ai ai-arxiv"></i>
+        </span>
+        <span>arXiv</span>
+      </a>
+    </span>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Insufficient lighting poses challenges to both human and machine visual analytics. While existing low-light enhancement methods prioritize human visual perception, they often neglect machine vision and high-level semantics. In this paper, we make pioneering efforts to build an illumination enhancement model for high-level vision. Drawing inspiration from camera response functions, our model could enhance images from the machine vision perspective despite being lightweight in architecture and simple in formulation. We also introduce two approaches that leverage knowledge from base enhancement curves and self-supervised pretext tasks to train for different downstream normal-to-low-light adaptation scenarios. Our proposed framework overcomes the limitations of existing algorithms without requiring access to labeled data in low-light conditions. It facilitates more effective illumination restoration and feature alignment, significantly improving the performance of downstream tasks in a plug-and-play manner. This research advances the field of low-light machine analytics and broadly applies to various high-level vision tasks, including classification, face detection, optical flow estimation, and video action recognition.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Framework -->
+<section class="hero is-small" style="padding-top: 50px; padding-bottom: 50px;">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+
+          <div style="width: 45%; float:left;">
+            <p>
+              Left: Comparison with the baseline model (trained with normal light data only) and previous state-of-the-art on multiple downstream tasks.
+            </p>
+            <p>
+              Right: Example nighttime face detection results. Our approach better enhances faces hidden in darkness, resulting in more accurate detection.
+            </p>
+          </div>
+
+          <div style="width: 50%; float:right;">
+            <img src="images/Teaser.jpg" alt="OVERALL"/>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- End Framework -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p><b>Highlights:</b></p>
+
+          <ul>
+        <li> We are <b>the first to propose an illumination enhancement model for low-light high-level vision</b>. Our model could enhance images from the machine vision perspective despite being lightweight in architecture and simple in formulation. </li>
+
+        <li> We train the enhancement model with base enhancement curves or pretext tasks to satisfy different downstream scenarios. Our training strategy can narrow the normal/low-light domain gap and improve the model's performance without annotated data. Besides, our framework serves as a plug-and-play remedy for multiple downstream tasks. </li>
+
+        <li> We evaluate our method on <b>various high-level vision tasks, including classification, face detection, optical flow estimation, and video action recognition</b>. Extensive experiments across multiple benchmarks demonstrate the superiority of our approach over state-of-the-art low-light enhancement and domain adaptation methods. </li>
+          </ul>
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Framework -->
+<section class="hero is-small" style="padding-top: 50px;padding-bottom: 50px;">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <div style="padding-bottom: 10px;">
+            <img src="images/Architecture-230401.jpg" alt="FRAMEWORK"/>
+          </div>
+          <p>
+            The <b>architecture</b> of the proposed deep concave curve, which intends to enhance the illumination of the input low-light image. We first predict the minus second-order derivative -&nabla;<sup>2</sup>c and then integrate and normalize it into a concave curve g. Finally, we apply g to the input image I<sub>L</sub> to obtain the enhanced image.
+          </p>
+        </div>
+
+        <div class="content has-text-justified">
+          <div style="padding-bottom: 10px; padding-top: 50px;">
+            <img src="images/Framework-230401.jpg" alt="FRAMEWORK"/>
+          </div>
+          <p>
+            The <b>training framework</b> of self-aligned concave curve (SACC). When task information is available, we generate high-quality pseudo labels by assembling knowledge from a pre-defined curve family. When task information is unavailable, we first train a pretext head on normal-light data and then learn the deep concave curve on dark data with a fixed pretext head.
+          </p>
+        </div>
+
+        <div class="content has-text-justified">
+          <h2 class="title is-3" style="padding-top: 50px;">Experimental Results</h2>
+          <p> Our proposed framework applies to various models and vision tasks. To justify its effectiveness, we evaluate it on several representative low-light vision tasks, including classification, face detection, optical flow estimation, and video action recognition. Please refer to our paper for full results.</p>
+          <div>
+            <img src="images/results.jpg" alt="FRAMEWORK"/>
+          </div>
+          <div>
+            <img src="images/action-comparison.jpg" alt="FRAMEWORK" style="padding-top: 20px;"/>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- End Framework -->
+
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{SACC_Journal,
+  author       = {Wenjing Wang and
+                  Rundong Luo and
+                  Wenhan Yang and
+                  Jiaying Liu},
+  title        = {Unsupervised Illumination Adaptation for Low-Light Vision},
+  journal      = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence},
+  year         = {2024},
+}</code></pre>
+  <p> If you have any questions, please contact Wenjing Wang (daooshee@pku.edu.cn). </p>
+    </div>
+
+</section>
+<!--End BibTex citation -->
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+</body>
+</html>
